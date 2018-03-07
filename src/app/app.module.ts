@@ -7,6 +7,7 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { BracketComponent } from './bracket/bracket.component';
 
 
 
@@ -16,7 +17,8 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
     HeaderComponent,
     RegisterComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    BracketComponent
   ],
   imports: [
     BrowserModule,
